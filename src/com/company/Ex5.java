@@ -4,6 +4,8 @@ package com.company;
  * Created by 25374183P on 14/10/2016.
  */
 
+
+
 import java.util.Scanner;
 
 public class Ex5 {
@@ -14,7 +16,7 @@ public class Ex5 {
             int num = scanner.nextInt();
 
         for (int i = 0; i <= 100; i++) {
-
+            System.out.println("example");
         }
     }
 }
