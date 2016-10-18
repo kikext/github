@@ -24,7 +24,7 @@ public class Ex9 {
             if (var < min) {
                 min = var;
 
-            }
+            } 
             if (var > max) {
                 max = var;
 
