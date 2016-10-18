@@ -17,10 +17,10 @@ public class Ex11 {
                 System.out.println("Te quedan "+cont+" intentos, andate con ojo");
                 int num = scanner.nextInt();
                 if(num>RandNum){
-                    System.out.println("LOCO! Te pasas we! TRY AGAIN");
+                    System.out.println("LOCO! Te pasas we! ");
 
                 }if(num<RandNum){
-                    System.out.println("Asi no men, te has quedado corto, TRY AGAIN");
+                    System.out.println("Asi no men, te has quedado corto");
                 }if(num == RandNum){
                     System.out.println("BOOOOOM ACERTASTE!! el numero era: "+RandNum);
                     System.out.println("y te sobraron: "+cont+" turnos");
