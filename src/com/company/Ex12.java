@@ -23,25 +23,37 @@ public class Ex12 {
             cantidad = scanner.nextInt();
 do {
     if (cantidad - 50 >= 0) {
-            cantidad=cantidad-50;
 
+        cantidad=cantidad-50;
         cont50++;
     } else if (cantidad - 20 >= 0) {
 
+        cantidad=cantidad-20;
         cont20++;
     } else if (cantidad - 10 >= 0) {
 
+        cantidad=cantidad-10;
         cont10++;
     } else if (cantidad - 5 >= 0) {
 
+        cantidad=cantidad-5;
         cont5++;
     } else if (cantidad - 2 >= 0) {
 
+        cantidad=cantidad-2;
         cont2++;
     } else if (cantidad - 1 >= 0) {
 
+        cantidad=cantidad-1;
         cont1++;
     }
 }while (cantidad!=0);
+        System.out.println("El cambio será: ");
+        System.out.println(cont50+" monedas de 50");
+        System.out.println(cont20+" monedas de 20");
+        System.out.println(cont10+" monedas de 10");
+        System.out.println(cont5+" mondeas de 5");
+        System.out.println(cont2+" monedas de 2");
+        System.out.println(cont1+" monedas de 1");
     }
 }
